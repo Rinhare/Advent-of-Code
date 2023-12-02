@@ -70,6 +70,6 @@ fs.readFile("input.txt", "utf-8", (err, data) => {
       total += result;
     }
   }
-
+  console.log(total);
   console.log(total);
 });
